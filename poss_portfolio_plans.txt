@@ -1,0 +1,19 @@
+POSSIBLE PLANS:
+- Single page with linked images that lead to other sites in the necessary areas.
+- Dragging side to side to change the page contents.
+- Intro page that is possibly animated and/or possible interactive.
+- Loading screens between pages
+- Interactive or distorted background/page
+- Stylized hyperlinks
+- A submenu
+- User Input on Intro Screen
+- Spinning page to change contents using arrow keys
+
+SOME INSPIRATIONS:
+http://narrowdesign.com/
+http://robinmastromarino.com/
+https://lhbzr.com/
+http://bymattlee.com/
+http://www.coralinecolasse.fr/
+http://lbebber.github.io/public/
+http://cristiano.do/
