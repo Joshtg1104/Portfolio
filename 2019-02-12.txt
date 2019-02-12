@@ -17,3 +17,6 @@ http://bymattlee.com/
 http://www.coralinecolasse.fr/
 http://lbebber.github.io/public/
 http://cristiano.do/
+
+WHAT I DID TODAY:
+Created an intro page and begun the layout of my About Me page

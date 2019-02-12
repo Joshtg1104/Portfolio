@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="intro_page.css">
+</head>
+<body>
+
+<header class="wrapper">
+    <h1>Hello Visitor!</h1>
+    <p><h3>Welcome to the website of Joshua Graham</h3></p>
+    <a href="page1_aboutMe.html" class="bback">About Me</a> <a href="page2_education.html">Education</a> <a href="page3_resume.html" class="bback">Resume</a>
+        <a href="page4_skills.html">Skills</a> <a href="page5_projects.html" class="bback">Projects</a> <a href="page6_contact.html">Contact</a>
+        <a href="page7_weeklyReflects.html" class="bback">Weekly Reflections</a>
+</header>
+<div class="welcome-section content-hidden">
+    <div class="content-wrap">
+        <ul class="fly-in-text">
+            <li>W</li>
+            <li>E</li>
+            <li>L</li>
+            <li>C</li>
+            <li>0</li>
+            <li>M</li>
+            <li>E</li>
+        </ul>
+        <a href="#" class="enter-button">ENTER</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(function () {
+        var welcomeSection = $(".welcome-section"),
+            enterButton = welcomeSection.find(".enter-button");
+
+        setTimeout(function () {
+            welcomeSection.removeClass("content-hidden");
+        }, 800);
+
+        enterButton.on('click', function (e) {
+            e.preventDefault();
+            welcomeSection.addClass("content-hidden").fadeOut();
+        })
+    })
+
+</script>
+</body>
+</html>
