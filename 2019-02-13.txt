@@ -1,0 +1,5 @@
+WHAT DID I DO:
+- Fixed my About Me page
+- Added an image of myself to the About Me page
+- Tidied up my page1 css
+-Started on my Education page

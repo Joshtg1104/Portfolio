@@ -1,27 +1,34 @@
+/*set the padding and margin for the homepage*/
 *{
     margin: 0;
     padding: 0;
 }
+/*sets the font and weight of the body*/
 body{
-    font-family: "Droid Sans Mono Slashed";
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
 }
+/*center the h1 tag*/
 h1{
     text-align: center;
 }
+/*centers the h3 tags*/
 h3{
     text-align: center;
 }
+/*changes font size, removes decoration, and changes color of a tags*/
 a{
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     color: black;
 }
+/*class that changes color of text and background for the assigned tags*/
 .bback{
     background: black;
     color: white;
 }
+/*places assigned tag in the the very center of the page and changes size and weight of font*/
 .wrapper{
     position: absolute;
     top: 50%;
@@ -30,6 +37,7 @@ a{
     font-weight: lighter;
     font-size: 40px;
 }
+/*changes size, position, and background of assigned tags as well as hide it*/
 .welcome-section{
     position: absolute;
     width: 100%;
@@ -39,16 +47,20 @@ a{
     background: #000;
     overflow: hidden;
 }
+/*assigns position of the tag it is associated with*/
 .content-wrap{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*removes style of assigned tag*/
 .fly-in-text{
     list-style: none;
 }
+/*sets the font, display type, size, color, and opacity of the associated tag as well as the transition time*/
 .fly-in-text li{
+    font-family: 'Monoton', cursive;
     display: inline-block;
     margin-right: 20px;
     font-size: 5em;
@@ -56,10 +68,13 @@ a{
     opacity: 1;
     transition: all 3s ease;
 }
+/*makes margin of this specific child 0*/
 .fly-in-text li:nth-child(5){
     margin-right: 0;
 }
+/*creates the enter "button" of the welcome screen*/
 .enter-button{
+    font-family: 'Monoton', cursive;
     display: block;
     text-align: center;
     font-size: 2em;
@@ -69,6 +84,7 @@ a{
     margin-top: 30px;
     transition: all 1s ease 3s;
 }
+/*assigns every character/child in the list a position*/
 .content-hidden .fly-in-text li{ opacity: 0; }
 .content-hidden .fly-in-text li:nth-child(1){transform: translate3d(-90px, 0, 0); }
 .content-hidden .fly-in-text li:nth-child(2){transform: translate3d(-60px, 0, 0); }
