@@ -60,7 +60,7 @@ a{
 }
 /*sets the font, display type, size, color, and opacity of the associated tag as well as the transition time*/
 .fly-in-text li{
-    font-family: 'Monoton', cursive;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     margin-right: 20px;
     font-size: 5em;
@@ -74,12 +74,12 @@ a{
 }
 /*creates the enter "button" of the welcome screen*/
 .enter-button{
-    font-family: 'Monoton', cursive;
+    font-family: 'Roboto', sans-serif;
     display: block;
     text-align: center;
     font-size: 2em;
     text-decoration: none;
-    color: #adff2f;
+    color: #94938f;
     opacity: 1;
     margin-top: 30px;
     transition: all 1s ease 3s;
