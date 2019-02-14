@@ -1,16 +1,12 @@
-
 .lineUp{
     display: grid;
     text-align: center;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
     /*grid-auto-rows: 10px;*/
-    /*added more content sections in order to so that all the information on page does not overlap each other*/
     grid-template-areas:
             "header header header header header header header"
             "section1 section2 section3 section4 section5 section6 section7"
-            "content1 content1 content1 content1 . . ."
-            "content2 content2 content2 content2 . . ."
-            "content3 content3 content3 content3 . . ."
+            "content content content content . . ."
             "footer footer footer footer footer footer footer";
 }
 header{
@@ -20,6 +16,7 @@ header{
     grid-area: header;
 }
 footer{
+    margin-top: 30px;
     grid-area: footer;
     text-align: left;
 }
@@ -44,26 +41,9 @@ footer{
 .sub7{
     grid-area: section7;
 }
-.im1{
-    grid-area: image;
-    width: 350px;
-    height: 400px;
-}
-/*removed the list style of the list tags so that the dots do not appear*/
 .p1{
     list-style: none;
-    grid-area: content1;
-    font-size: 23px;
-}
-/*new p# classes to put more info into*/
-.p2{
-    list-style: none;
-    grid-area: content2;
-    font-size: 23px;
-}
-.p3{
-    list-style: none;
-    grid-area: content3;
+    grid-area: content;
     font-size: 23px;
 }
 .subheader{
@@ -76,13 +56,6 @@ footer{
     background: black;
     color: white;
 }
-/*underlines assigned tags*/
 .underlined{
     text-decoration: underline;
-}
-/*creates a black bordered background for assigned tags*/
-.box{
-    border: solid 2px black;
-    background: black;
-    color: white;
 }
