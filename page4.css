@@ -9,11 +9,20 @@
             "content content content content . . ."
             "footer footer footer footer footer footer footer";
 }
+body{
+    background: grey;
+}
 header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     text-align: center;
     font-size: 30px;
     grid-area: header;
+}
+h1{
+    background: black;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 footer{
     margin-top: 30px;

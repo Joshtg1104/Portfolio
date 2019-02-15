@@ -6,19 +6,28 @@
     grid-template-areas:
             "header header header header header header header"
             "section1 section2 section3 section4 section5 section6 section7"
-            ". . . content content content content"
+            ". content2 content2 . content1 content1 content1"
             "footer footer footer footer footer footer footer";
 }
+body{
+    background: grey;
+}
 header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     text-align: center;
     font-size: 30px;
     grid-area: header;
 }
+h1{
+    background: black;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+}
 footer{
     margin-top: 25px;
     grid-area: footer;
-    text-align: right;
+    text-align: left;
 }
 .sub1{
     grid-area: section1;
@@ -42,8 +51,18 @@ footer{
     grid-area: section7;
 }
 .p1{
-    margin-top: 50px;
-    grid-area: content;
+    grid-area: content1;
+    width: 650px;
+    height: 700px;
+}
+.p2{
+    text-align: center;
+    grid-area: content2;
+    list-style: none;
+    font-size: 40px;
+}
+.hitMeUp{
+    animation-name: pulse;
 }
 .subheader{
     font-family: 'Roboto Mono', monospace;

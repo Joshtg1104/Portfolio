@@ -8,16 +8,25 @@
     grid-template-areas:
             "header header header header header header header"
             "section1 section2 section3 section4 section5 section6 section7"
-            "content1 content1 content1 content1 . . ."
-            "content2 content2 content2 content2 . . ."
+            "content1 content1 content1 content1 . im1 ."
+            "im2 im2 . content2 content2 content2 content2"
             "content3 content3 content3 content3 . . ."
             "footer footer footer footer footer footer footer";
 }
+body{
+    background: grey;
+}
 header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     text-align: center;
     font-size: 30px;
     grid-area: header;
+}
+h1{
+    background: black;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 footer{
     grid-area: footer;
@@ -45,9 +54,14 @@ footer{
     grid-area: section7;
 }
 .im1{
-    grid-area: image;
-    width: 350px;
-    height: 400px;
+    grid-area: im1;
+    width: 500px;
+    height: 500px;
+}
+.im2{
+    grid-area: im2;
+    width: 500px;
+    height: 700px;
 }
 /*removed the list style of the list tags so that the dots do not appear*/
 .p1{

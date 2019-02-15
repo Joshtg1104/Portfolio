@@ -5,12 +5,17 @@
 }
 /*sets the font and weight of the body*/
 body{
+    float: outside;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
+    background: grey;
 }
 /*center the h1 tag*/
 h1{
     text-align: center;
+    font-family: 'Monoton', cursive;
+    background: black;
+    color: white;
 }
 /*centers the h3 tags*/
 h3{
@@ -22,6 +27,10 @@ a{
     text-align: center;
     text-decoration: none;
     color: black;
+}
+.resize{
+    font-size: 14px;
+    text-align: center;
 }
 /*class that changes color of text and background for the assigned tags*/
 .bback{
@@ -60,13 +69,13 @@ a{
 }
 /*sets the font, display type, size, color, and opacity of the associated tag as well as the transition time*/
 .fly-in-text li{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     display: inline-block;
     margin-right: 20px;
     font-size: 5em;
-    color: #fff;
+    color: #ffff;
     opacity: 1;
-    transition: all 3s ease;
+    transition: all 1s ease;
 }
 /*makes margin of this specific child 0*/
 .fly-in-text li:nth-child(5){
@@ -74,7 +83,7 @@ a{
 }
 /*creates the enter "button" of the welcome screen*/
 .enter-button{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     display: block;
     text-align: center;
     font-size: 2em;
@@ -82,7 +91,7 @@ a{
     color: #94938f;
     opacity: 1;
     margin-top: 30px;
-    transition: all 1s ease 3s;
+    transition: all 1s ease 1s;
 }
 /*assigns every character/child in the list a position*/
 .content-hidden .fly-in-text li{ opacity: 0; }

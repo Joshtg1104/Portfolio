@@ -6,14 +6,23 @@
     grid-template-areas:
             "header header header header header header header"
             "section1 section2 section3 section4 section5 section6 section7"
-            "content content content content . . ."
+            "content1 content1 content2 content2 content2 content3 content3"
             "footer footer footer footer footer footer footer";
 }
+body{
+    background: grey;
+}
 header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     text-align: center;
     font-size: 30px;
     grid-area: header;
+}
+h1{
+    background: black;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 footer{
     margin-top: 30px;
@@ -46,7 +55,20 @@ footer{
 }
 .p1{
     text-align: left;
-    grid-area: content;
+    list-style: none;
+    grid-area: content1;
+    font-size: 23px;
+}
+.p2{
+    text-align: center;
+    list-style: none;
+    grid-area: content2;
+    font-size: 23px;
+}
+.p3{
+    text-align: right;
+    list-style: none;
+    grid-area: content3;
     font-size: 23px;
 }
 .subheader{
