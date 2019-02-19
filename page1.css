@@ -58,6 +58,7 @@ footer{
 .p1{
     grid-area: content;
     font-size: 23px;
+    word-spacing: 3px;
 }
 .subheader{
     font-family: 'Roboto Mono', monospace;

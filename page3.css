@@ -7,7 +7,7 @@
     grid-template-areas:
             "header header header header header header header"
             "section1 section2 section3 section4 section5 section6 section7"
-            ". . content content content . ."
+            ". content content content content content ."
             "footer footer footer footer footer footer footer";
 }
 body{
