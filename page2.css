@@ -7,10 +7,11 @@
     /*added more content sections in order to so that all the information on page does not overlap each other*/
     grid-template-areas:
             "header header header header header header header"
-            "section1 section2 section3 section4 section5 section6 section7"
+            "section1 section2 section2 section3 section5 section6 section7"
             "content1 content1 content1 content1 . im1 ."
             "im2 im2 . content2 content2 content2 content2"
             "content3 content3 content3 content3 . . ."
+            "im3 im3 im3 content4 content4 content4 content4"
             "footer footer footer footer footer footer footer";
 }
 body{
@@ -63,6 +64,11 @@ footer{
     width: 500px;
     height: 700px;
 }
+.im3{
+    grid-area: im3;
+    width: 700px;
+    height: 400px;
+}
 /*removed the list style of the list tags so that the dots do not appear*/
 .p1{
     list-style: none;
@@ -73,11 +79,18 @@ footer{
 .p2{
     list-style: none;
     grid-area: content2;
+    margin-left: 5%;
     font-size: 23px;
 }
 .p3{
     list-style: none;
     grid-area: content3;
+    font-size: 23px;
+}
+.p4{
+    list-style: none;
+    grid-area: content4;
+    margin-left: 23%;
     font-size: 23px;
 }
 .subheader{
