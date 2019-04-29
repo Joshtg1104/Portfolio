@@ -15,7 +15,7 @@
             "footer footer footer footer footer footer footer";
 }
 body{
-    background: grey;
+    background: #fff1d0;
 }
 header{
     font-family: 'Monoton', cursive;
@@ -24,8 +24,8 @@ header{
     grid-area: header;
 }
 h1{
-    background: black;
-    color: white;
+    background: #dd1c1a;
+    color: #f0c808;
     margin-left: 400px;
     margin-right: 400px;
 }
@@ -97,11 +97,11 @@ footer{
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
     text-decoration: none;
-    color: black;
+    color: #006992;
 }
 .bback{
-    background: black;
-    color: white;
+    background: #dd1c1a;
+    color: #f0c808;
 }
 /*underlines assigned tags*/
 .underlined{
@@ -109,7 +109,10 @@ footer{
 }
 /*creates a black bordered background for assigned tags*/
 .box{
-    border: solid 2px black;
-    background: black;
-    color: white;
+    border: solid 2px #006992;
+    background: #dd1c1a;
+    color: #f0c808;
+}
+.color1{
+    color: #006992;
 }
