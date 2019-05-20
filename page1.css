@@ -28,6 +28,7 @@ h1{
 footer{
     grid-area: footer;
     text-align: left;
+    margin-left: 70px;
 }
 .sub1{
     grid-area: section1;
@@ -53,16 +54,17 @@ footer{
 .im1{
     grid-area: image;
     width: 350px;
-    height: 400px;
+    height: 440px;
 }
 .p1{
     grid-area: content;
     font-size: 23px;
     word-spacing: 3px;
+    margin-left: 70px;
 }
 .subheader{
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
+    font-size: 35px;
     text-decoration: none;
     color: #006992;
 }
@@ -70,6 +72,13 @@ footer{
     background: #dd1c1a;
     color:#f0c808;
 }
+.cback{
+    background: #f0c808;
+    color:#006992;
+}
 .color1{
     color: #006992;
+}
+.font1{
+    font-size: 30px;
 }

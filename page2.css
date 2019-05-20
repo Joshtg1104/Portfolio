@@ -32,6 +32,7 @@ h1{
 footer{
     grid-area: footer;
     text-align: left;
+    margin-left: 70px;
 }
 .sub1{
     grid-area: section1;
@@ -57,12 +58,12 @@ footer{
 .im1{
     grid-area: im1;
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
 .im2{
     grid-area: im2;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 600px;
 }
 .im3{
     grid-area: im3;
@@ -95,7 +96,7 @@ footer{
 }
 .subheader{
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
+    font-size: 35px;
     text-decoration: none;
     color: #006992;
 }
@@ -103,16 +104,26 @@ footer{
     background: #dd1c1a;
     color: #f0c808;
 }
+.cback{
+    background: #f0c808;
+    color:#006992;
+}
 /*underlines assigned tags*/
 .underlined{
     text-decoration: underline;
 }
 /*creates a black bordered background for assigned tags*/
 .box{
-    border: solid 2px #006992;
+    border: solid 4px #006992;
     background: #dd1c1a;
     color: #f0c808;
 }
 .color1{
     color: #006992;
+}
+.color2{
+    color: #dd1c1a;
+}
+.font1{
+    font-size: 25px;
 }

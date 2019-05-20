@@ -41,6 +41,13 @@ a{
     background: #dd1c1a;
     color: #f0c808;
 }
+.cback {
+    background: #f0c808;
+    color: #006992;
+}
+.font1{
+    font-size: 16px;
+}
 /*places assigned tag in the the very center of the page and changes size and weight of font*/
 .wrapper{
     position: absolute;
