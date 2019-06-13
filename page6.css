@@ -5,7 +5,7 @@
     /*grid-auto-rows: 10px;*/
     grid-template-areas:
             "header header header header header header header"
-            "section1 section2 section2 section3 section5 section6 section7"
+            "nav nav nav nav nav nav nav"
             ". content2 content2 . content1 content1 content1"
             "footer footer footer footer footer footer footer";
 }
@@ -23,33 +23,19 @@ h1{
     color: #f0c808;
     margin-left: 400px;
     margin-right: 400px;
+    border: solid 4px #f0c808;
+}
+nav{
+    grid-area: nav;
+    text-align: center;
+    display: inline;
 }
 footer{
     margin-top: 25px;
     grid-area: footer;
     text-align: left;
 }
-.sub1{
-    grid-area: section1;
-}
-.sub2{
-    grid-area: section2;
-}
-.sub3{
-    grid-area: section3;
-}
-.sub4{
-    grid-area: section4;
-}
-.sub5{
-    grid-area: section5;
-}
-.sub6{
-    grid-area: section6;
-}
-.sub7{
-    grid-area: section7;
-}
+
 .p1{
     grid-area: content1;
     width: 650px;
@@ -66,24 +52,30 @@ footer{
 }
 .subheader{
     font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
+    font-size: 34px;
     text-decoration: none;
-    color: #006992;
 }
 .bback{
     background: #dd1c1a;
-    color: #f0c808;
+    border-top: solid 4px #f0c808;
+    border-bottom: solid 4px #f0c808;
 }
 .cback{
     background: #f0c808;
-    color:#006992;
-}
-.sizeUp{
-    font-size: 80px;
+    border: solid 3px #006992;
 }
 .color1{
     color: #006992;
 }
 .color2{
+    color: #f0c808;
+}
+.color3{
     color: #dd1c1a;
+}
+.color4{
+    color: #fff1d0;
+}
+.sizeUp{
+    font-size: 80px;
 }
